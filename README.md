@@ -9,4 +9,10 @@ npm i @babel/core @babel/cli @babel/node @babel/preset-env nodemon -D
 En el caso de existir errores al cambiar a nodemon se debe instalar babel de otra manera:
 npm i -g @babel/node
 
+Luego de esto se procede a la ejecucion del programa de la siguiente manera:
+npm start
+
+Ahora, para habilitar el ambiente de trabajo de desarrollo, se debe realizar lo siguiente (esto antes de realizar los cambios en package.json):
+
+npm run build
 
