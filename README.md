@@ -16,3 +16,17 @@ Ahora, para habilitar el ambiente de trabajo de desarrollo, se debe realizar lo 
 
 npm run build
 
+npm run dev
+
+npm start
+
+Luego, se crean los siguientes directorios en el directorio principal del proyecto:
+
+cd src
+mkdir controllers libs middlewares models routes
+
+Luego, crear los siguientes archivos en el directorio src:
+- app.js
+- config.js
+- database.js
+
