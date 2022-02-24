@@ -5,7 +5,11 @@ const app = express()
 app.use( morgan('dev') )
 
 app.get('/', (req, res) => {
-    res.json('welcome')
+    res.json({
+        author:'Guillermo Pizarro',
+        description:'',
+        version:'1.0.0'
+    })
 })
 
 export default app;
